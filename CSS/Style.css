@@ -1,0 +1,29 @@
+.btn {
+    border: 0 solid;
+    cursor: pointer;
+    font-family: system-ui;
+    font-size: 100%;
+    background: linear-gradient(90deg, blue, rgb(255, 0, 255));
+    border-radius: 999px;
+    font-weight: 900;
+    padding: 1.8rem 5rem;
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    text-transform: uppercase;
+  }
+  
+  .btn span {
+    background: #1e293b;
+    border-radius: 999px;
+    color: #fff;
+    display: grid;
+    inset: 5px;
+    place-items: center;
+    position: absolute;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover span {
+    background: none;
+  }
