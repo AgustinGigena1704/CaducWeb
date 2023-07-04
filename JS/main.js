@@ -1,15 +1,15 @@
 function cambio(Tipo){
     console.log(Tipo);
     if(Tipo == "Actividades"){
-        window.location.href = "Actividades.html";
+        window.location.href = "HTML/Actividades.html";
     }
     else if(Tipo == "Empresas"){
-        window.location.href = "Empresas.html";
+        window.location.href = "HTML/Empresas.html";
     }
     else if(Tipo == "Grupos"){
-        window.location.href = "Grupos.html";
+        window.location.href = "HTML/Grupos.html";
     }
     else if(Tipo == "Gubernamentales"){
-        window.location.href = "Gubernamentales.html";
+        window.location.href = "HTML/Gubernamentales.html";
     }
 }
