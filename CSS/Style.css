@@ -21,11 +21,12 @@
 }
 .dropdown-content a {
   display: block;
-  color: #000000;
+  color: #0011ff;
   padding: 5px;
   text-decoration: none;
+  background-color: blueviolet;
 }
 .dropdown-content a:hover {
-  color: #FFFFFF;
-  background-color: #00A4BD;
+  color: blueviolet;
+  background-color: #0011ff;
 }
